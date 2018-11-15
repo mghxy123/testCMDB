@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5b059f5-5eac-4579-b65b-e699d4d1f073" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/data/flot-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/data/morris-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/dist/css/sb-admin-2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/dist/css/sb-admin-2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/dist/js/sb-admin-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/dist/js/sb-admin-2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/js/sb-admin-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/less/sb-admin-2.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/bootstrap-social/bootstrap-social.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/bootstrap-social/bootstrap-social.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/bootstrap-social/bootstrap-social.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables-plugins/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables-plugins/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables-plugins/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables-plugins/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables-responsive/dataTables.responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables-responsive/dataTables.responsive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables-responsive/dataTables.responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/css/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/css/dataTables.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/css/dataTables.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/css/dataTables.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/css/dataTables.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/css/dataTables.material.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/css/dataTables.material.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/css/dataTables.semanticui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/css/dataTables.semanticui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/css/dataTables.uikit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/css/dataTables.uikit.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/css/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/css/jquery.dataTables_themeroller.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/images/Sorting icons.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/js/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/js/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/js/dataTables.foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/js/dataTables.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/js/dataTables.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/js/dataTables.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/js/dataTables.material.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/js/dataTables.material.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/js/dataTables.semanticui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/js/dataTables.semanticui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/js/dataTables.uikit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/js/dataTables.uikit.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/datatables/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot-tooltip/jquery.flot.tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot-tooltip/jquery.flot.tooltip.min(1).js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot-tooltip/jquery.flot.tooltip.source.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot/excanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot/excanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot/jquery.colorhelpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot/jquery.flot.canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot/jquery.flot.categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot/jquery.flot.errorbars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot/jquery.flot.fillbetween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot/jquery.flot.image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot/jquery.flot.navigate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot/jquery.flot.selection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot/jquery.flot.symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot/jquery.flot.threshold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/flot/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/css/font-awesome.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/less/extras.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/less/spinning.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/scss/_extras.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/scss/_spinning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/metisMenu/metisMenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/metisMenu/metisMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/metisMenu/metisMenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/metisMenu/metisMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/morrisjs/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/morrisjs/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/morrisjs/morris.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/raphael/raphael.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/static/vendor/raphael/raphael.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/template/back/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/template/back/buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/template/back/flot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/template/back/forms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/template/back/grid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/template/back/icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/template/back/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/template/back/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/template/back/morris.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/template/back/notifications.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/template/back/panels-wells.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/template/back/tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/template/back/typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdjango/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdjango/server/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/testdjango/server/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdjango/testdjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/testdjango/testdjango/settings.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="34919972">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="33" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="33" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testdjango/users/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testdjango/server/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1590">
+              <caret line="106" selection-start-line="106" selection-end-line="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testdjango/testdjango/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testdjango/users/forms.py" />
+        <option value="$PROJECT_DIR$/testdjango/server/models.py" />
+        <option value="$PROJECT_DIR$/testdjango/testdjango/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="720" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="testCMDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testCMDB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testCMDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testCMDB" type="462c0819:PsiDirectoryNode" />
+              <item name="testdjango" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testCMDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testCMDB" type="462c0819:PsiDirectoryNode" />
+              <item name="testdjango" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testCMDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testCMDB" type="462c0819:PsiDirectoryNode" />
+              <item name="testdjango" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testCMDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testCMDB" type="462c0819:PsiDirectoryNode" />
+              <item name="testdjango" type="462c0819:PsiDirectoryNode" />
+              <item name="testdjango" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testCMDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testCMDB" type="462c0819:PsiDirectoryNode" />
+              <item name="testdjango" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testdjango/static" />
+      <recent name="$PROJECT_DIR$/testdjango/template/back" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5b059f5-5eac-4579-b65b-e699d4d1f073" name="Default Changelist" comment="" />
+      <created>1542274189435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542274189435</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="720" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/testdjango/users/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdjango/server/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdjango/testdjango/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
