@@ -18,4 +18,10 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^ckeditor/', include('ckeditor_uploader.urls')),
+    url(r'^',include('Testing.urls')),
+    # url(r'^testing/', include('Testing.urls')),
+    # url(r'^users/', include('Users.urls')),
+    # url(r'^service/', include('Service.urls')),
+    # url(r'^api/', include('Api.urls')),
 ]
