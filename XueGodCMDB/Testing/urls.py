@@ -9,5 +9,6 @@ from Testing.views import *
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^$',base),
+    url(r'^$',index),
+    url(r'^base/$',base),
 ]
