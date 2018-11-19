@@ -4,11 +4,12 @@
 # Author: HuXianyong
 # Date  : 18/11/16
 
-from django.conf.urls import include, url
+from django.conf.urls import url
 from Testing.views import *
-from django.contrib import admin
 
 urlpatterns = [
     url(r'^$',index),
     url(r'^base/$',base),
+    url(r'^et/$',testET),
+    url(r'^login/$',login),
 ]

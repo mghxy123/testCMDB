@@ -4,5 +4,10 @@
 # Author: HuXianyong
 # Date  : 18/11/16
 
-from django.conf.urls import include, url
-from django.contrib import admin
+from django.conf.urls import  url
+from Users.views import *
+
+
+urlpatterns = [
+    url(r'^register/',register),
+]

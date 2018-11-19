@@ -4,6 +4,10 @@
     学神CMDB系统-首页
 {% endblock title %}
 
+{% block style %}
+    <link rel="stylesheet" href="/static/css/registerStyle.css">
+{% endblock %}
+
 {% block label %}
     <!--模态框触发部分-->
     <!--
@@ -44,7 +48,7 @@
                         用户注册
                     </h4>
                 </div>
-                    <form method = "post" id = "register_Form">
+                    <form action="/testing/login/" method = "post" id = "register_Form" enctype="multipart/form-data">
                     {% csrf_token %}
                         <div class = "modal-body">
                             {% for form in forms %}
@@ -56,9 +60,10 @@
 
                         </div>
                         <div class = "modal-footer">
-                            <button class = "btn btn-primary">
-                                注册用户
-                            </button>
+{#                            <button class = "btn btn-primary">#}
+{#                                注册用户#}
+{#                            </button>#}
+                            <input class="btn btn-lg btn-success btn-block" type="submit" value="登录">
                         </div>
                     </form>
             </div>
@@ -78,6 +83,7 @@
 {#    </script>#}
     <script type="text/javascript" src="/static/vendor/jquery/jquery.validate.min.js"></script>
     <script type="text/javascript" src="/static/vendor/jquery/messages_zh.min.js"></script>
+{#    <script type="text/javascript" src="/static/css/registerStyle.css"></script>#}
     <script>
     $.validator.setDefaults(
             {
@@ -87,58 +93,94 @@
             }
     );
     $().ready(
-            function () {
-                $("#register_Form").validate(
-                        {
-                            rules:{
-                                id_username:{
-                                    required: true,
-                                    maxlength: 6,
-                                    minlength: 2
+        function () {
+            $("#register_Form").validate(
+                {
+                    rules:{
+                        id_username:{
+                            required: true,
+                            maxlength: 6,
+                            minlength: 2
+                        },
+                        id_password:{
+                            required: true,
+                            maxlength: 6,
+                            minlength: 2
+                        },
+                        id_nickname:{
+                            required: true,
+                            maxlength: 6,
+                            minlength: 2
+                        },
+                        id_phone:{
+                            required: true
+                        },
+                        id_email:{
+                            email:true
+                        }
+                    },
+                    messages:{
+                        id_username:{
+                            required: "用户名不能为空",
+                            maxlength: "用户名不能大于6位",
+                            minlength: "用户名不能小于2位"
+                        },
+                        id_password:{
+                            required: "密码不能为空",
+                            maxlength: "密码不能大于6位",
+                            minlength: "密码不能小于2位"
+                        },
+                        id_nickname:{
+                            required: "用户姓名不能为空",
+                            maxlength: "用户姓名不能大于6位",
+                            minlength: "用户姓名不能小于2位"
+                        },
+                        id_phone:{
+                            required: "电话不能为空"
+                        },
+                        id_email:{
+                            email:"邮件需要符合格式"
+                        }
+                    },
+                    submitHandler:function () {
+                        var formdata= new FormData;
+                    {#form.submit()#}
+                        data = $('#register_Form').serializeArray();
+                        for (var d in data) {
+                            key = data[d]['name'];
+                            value = data[d]['value'];
+                            formdata.append(key, value);
+                        }
+                        img = $("#id_photo")[0].files[0];
+                        formdata.append('photo',img);
+                        console.log(img);
+                        console.log(data);
+                        //取csrf得值
+                        var csrftoken = data[0]['value'];
+                        //提交ajax
+                        $.ajax(
+                            {
+                                url:'/users/register/',
+                                type:'POST',
+                                data:formdata,
+                                traditional:true,//是否深度序列化数据，true位不深度，
+                                processData:false,//是否序列化数据
+                                contentType:false,//信息类型
+                                success:function (data) {
+                                    console.log(data)
                                 },
-                                id_password:{
-                                    required: true,
-                                    maxlength: 6,
-                                    minlength: 2
+                                beforeSend:function (xhr,settings) {
+                                    xhr.setRequestHeader('X-CSRFToken',csrftoken)
                                 },
-                                id_nickname:{
-                                    required: true,
-                                    maxlength: 6,
-                                    minlength: 2
-                                },
-                                id_phone:{
-                                    required: true
-                                },
-                                id_email:{
-                                    email:true
-                                }
-                            },
-                            messages:{
-                                id_username:{
-                                    required: "用户名不能为空",
-                                    maxlength: "用户名不能大于6位",
-                                    minlength: "用户名不能小于2位"
-                                },
-                                id_password:{
-                                    required: "密码不能为空",
-                                    maxlength: "密码不能大于6位",
-                                    minlength: "密码不能小于2位"
-                                },
-                                id_nickname:{
-                                    required: "用户姓名不能为空",
-                                    maxlength: "用户姓名不能大于6位",
-                                    minlength: "用户姓名不能小于2位"
-                                },
-                                id_phone:{
-                                    required: "电话不能为空"
-                                },
-                                id_email:{
-                                    email:"邮件需要符合格式"
+                                error:function (error) {
+                                    console.log(error)
                                 }
                             }
-                        }
-                )
-            }
+                        )
+                    }
+                }
+            )
+        }
     )
 </script>
 
