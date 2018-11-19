@@ -1,12 +1,5 @@
-from django.shortcuts import render
 from django.http import JsonResponse,HttpResponse
-from Users.forms import *
-from Service.models import *
-from XueGodCMDB.settings import BASE_DIR
-import os
-
 # Create your views here.
-
 
 def register(request):
     # if request.method == 'POST':
@@ -54,3 +47,100 @@ def register(request):
             return JsonResponse(result)
     else:
         return JsonResponse({"method":'GET'})
+
+
+import os
+from django.shortcuts import render
+from Users.forms import CMDBUserForm
+from Service.models import CMDBUser
+from XueGodCMDB.settings import BASE_DIR
+from django.shortcuts import render_to_response
+
+def loginValid(func):
+    def valid(request,*args,**keywords):
+        username = request.COOKIES.get("username")
+        if username:
+            try:
+                user = CMDBUser.objects.get(username = username)
+            except:
+                return HttpResponseRedirect("/testing/login/", locals())
+            else:
+                return func(request)
+        else:
+            return HttpResponseRedirect("/testing/login/",locals())
+    return valid
+
+@loginValid
+def index(request):
+    forms = CMDBUserForm() #定义form表单
+    if request.method == "POST" and request.POST and request.FILES:
+        #判断
+            #1、请求方式是post
+            #2、post请求有内容
+            #3、文件请求有内容
+        formsData = CMDBUserForm(data = request.POST,files = request.FILES)
+        #校验提交的数据和文件
+        if formsData.is_valid():
+            requestData = formsData.cleaned_data
+            username = requestData.get("username")
+            password = requestData.get("password")
+            nickname = requestData.get("nickname")
+            phone = requestData.get("phone")
+            email = requestData.get("email")
+            photo = requestData.get("photo").name #这里获取到的不是一个值，而是一个文件对象
+
+            user = CMDBUser() #实例化数据库，保存数据
+            user.username = username
+            user.password = password
+            user.nickname = nickname
+            user.phone = phone
+            user.email = email
+            user.photo = photo
+            user.save()
+
+            #保存文件，这里没有限制文件格式，上传啥都行
+            photofile = request.FILES.get("photo")
+            path = os.path.join(BASE_DIR,"media/images/%s"%photofile.name)
+            with open(path,"wb") as f:
+                for chunk in photofile.chunks():
+                    f.write(chunk)
+        else:
+            print(formsData.errors)
+    return render(request,"testing/",locals())
+
+# def echartExample(request):
+#     return render(request,"echartsExample.html")
+
+from django.http import HttpResponse
+from django.shortcuts import HttpResponseRedirect
+def login(request):
+    if request.method == "POST" and request.POST:
+        #获取校验cookie
+        login_cookie = request.get_signed_cookie(key = "login_cookie",salt = "nihao")
+        if login_cookie:
+            data = request.POST
+            username = data.get("username")
+            password = data.get("password")
+            try:
+                user = CMDBUser.objects.get(username = username)
+            except:
+                return HttpResponse("用户不存在")
+            else:
+                db_password = user.password
+                if password == db_password:
+                    response = HttpResponseRedirect("testing/index/",locals())
+                    response.set_cookie(key = "username",value = user.username)
+                    return response
+                else:
+                    return HttpResponse("密码错误")
+
+        else:
+            return HttpResponse("404")
+    else:
+        #登陆页面，login.html get请求
+        #生成response实例
+        response = render(request,"testing/login/")
+        #设置cookie
+        response.set_signed_cookie("login_cookie","while",salt = "nihao",max_age = 3600)
+        #返回设置了cookie的响应
+        return response
