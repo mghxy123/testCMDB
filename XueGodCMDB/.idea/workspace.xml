@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b5b0b9b-8d12-45c3-a097-101018f6df1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Service/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Service/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Service/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Service/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +73,7 @@
           <entry key="cell" value="60" />
           <entry key="css" value="19" />
           <entry key="html" value="558" />
-          <entry key="py" value="3155" />
+          <entry key="py" value="3167" />
           <entry key="txt" value="43" />
         </counts>
       </usages-collector>
@@ -83,7 +82,7 @@
           <entry key="CSS" value="19" />
           <entry key="HTML" value="558" />
           <entry key="PLAIN_TEXT" value="43" />
-          <entry key="Python" value="3155" />
+          <entry key="Python" value="3167" />
           <entry key="Scratch" value="60" />
         </counts>
       </usages-collector>
@@ -103,13 +102,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Service/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="333">
+              <caret line="160" column="20" lean-forward="true" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="20" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1542707553860" expanded="true" signature="160:167" ph="..." />
-                <marker date="1542707553860" expanded="true" signature="673:678" ph="..." />
-                <marker date="1542707553860" expanded="true" signature="1288:1293" ph="..." />
+                <marker date="1542708327994" expanded="true" signature="160:167" ph="..." />
+                <marker date="1542708327994" expanded="true" signature="686:693" ph="..." />
+                <marker date="1542708327994" expanded="true" signature="1338:1345" ph="..." />
               </folding>
             </state>
           </provider>
@@ -521,13 +520,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Service/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="333">
+          <caret line="160" column="20" lean-forward="true" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="20" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <marker date="1542707553860" expanded="true" signature="160:167" ph="..." />
-            <marker date="1542707553860" expanded="true" signature="673:678" ph="..." />
-            <marker date="1542707553860" expanded="true" signature="1288:1293" ph="..." />
+            <marker date="1542708327994" expanded="true" signature="160:167" ph="..." />
+            <marker date="1542708327994" expanded="true" signature="686:693" ph="..." />
+            <marker date="1542708327994" expanded="true" signature="1338:1345" ph="..." />
           </folding>
         </state>
       </provider>
