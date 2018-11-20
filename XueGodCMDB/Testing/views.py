@@ -4,16 +4,16 @@ from django.http import HttpResponse,JsonResponse
 from Service.models import CMDBUser
 
 def base(request):
-    return render(request,'Testing/blank.html')
+    return render(request,'testing/blank.html')
 
 
 def index(request):
     forms= CMDBUserForm
     context = {'forms':forms}
-    return render(request,'Testing/index.html',locals())
+    return render(request,'testing/index.html',locals())
 
 def testET(request):
-    return render(request,'Testing/testET.html')
+    return render(request,'testing/testET.html')
 
 ##简单的检验cookie
 # def login(request):
