@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b5b0b9b-8d12-45c3-a097-101018f6df1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Testing/response.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2e47d0a3-1049-469b-b50f-253c1851d880.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Service/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Service/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XueGodCMDB/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/XueGodCMDB/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XueGodCMDB/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/XueGodCMDB/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="7b5b0b9b-8d12-45c3-a097-101018f6df1d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +42,7 @@
     <session id="1623479644">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.14" value="1" />
@@ -80,14 +72,14 @@
           <entry key="css" value="19" />
           <entry key="html" value="558" />
           <entry key="py" value="2783" />
-          <entry key="txt" value="28" />
+          <entry key="txt" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="19" />
           <entry key="HTML" value="558" />
-          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="PLAIN_TEXT" value="43" />
           <entry key="Python" value="2783" />
           <entry key="Scratch" value="60" />
         </counts>
@@ -334,19 +326,25 @@
       <option name="project" value="LOCAL" />
       <updated>1542622529239</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="初步的接口测试！">
+      <created>1542694792234</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542694792235</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="720" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14135703" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14135703" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20063694" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20063694" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -398,7 +396,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="111" />
     <MESSAGE value="submit same mycmdb" />
-    <option name="LAST_COMMIT_MESSAGE" value="submit same mycmdb" />
+    <MESSAGE value="初步的接口测试！" />
+    <option name="LAST_COMMIT_MESSAGE" value="初步的接口测试！" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Api/urls.py">
