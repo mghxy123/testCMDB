@@ -5,10 +5,9 @@
 # Date  : 18/11/16
 
 from django.conf.urls import include, url
-from django.contrib import admin
-from django.views.generic import View
+from django.views.decorators.csrf import csrf_exempt
 from Service.views import *
 
 urlpatterns = [
-    url(r'^api/',api.as_view()),
+    url(r'^api/',csrf_exempt(api.as_view())),
 ]
