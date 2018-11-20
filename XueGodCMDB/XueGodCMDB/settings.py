@@ -25,7 +25,7 @@ SECRET_KEY = 'eo-faa_q^8d%gjhxgf=^^u6+^%vbd(c5$mw8(s8_4&j*xsfn^c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition

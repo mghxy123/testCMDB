@@ -6,3 +6,9 @@
 
 from django.conf.urls import include, url
 from django.contrib import admin
+from django.views.generic import View
+from Service.views import *
+
+urlpatterns = [
+    url(r'^api/',api.as_view()),
+]
