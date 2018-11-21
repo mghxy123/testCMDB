@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf8 -*- 
 #*************************************************************************
 # File Name: requests_sendData5.py
@@ -11,7 +11,8 @@
 import json
 import requests
 
-url = "http://47.98.60.53:9909/service/api/"
+#url = "http://47.98.60.53:9909/service/api/"
+url = "http://127.0.0.1:8000/service/api/"
 #对嵌套部分进行json封装
 #login_data = json.dumps({
 #    "username": "while",
@@ -28,7 +29,7 @@ login_data = json.dumps({
 data = {
    "type": "addServer",
     "data": login_data,
-    "token": "5520a720a713954c2fa63f22996fdfcc"
+    "token": "ee2d1752c1ddb0d2e96514ded806bbe6"
 }
 
 response = requests.post(url,data = data)

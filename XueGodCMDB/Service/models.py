@@ -9,7 +9,7 @@ class Service(models.Model):
     mac = models.CharField(max_length = 32,verbose_name = "服务器物理地址")
     cpu = models.CharField(max_length = 32,verbose_name = "服务器CPU")
     memory = models.CharField(max_length = 32,verbose_name = "服务器内存")
-    disk = models.CharField(max_length = 32,verbose_name = "服务器磁盘")
+    hostname = models.CharField(max_length=32, verbose_name="服务器主机")
     isalive = models.CharField(max_length = 32,verbose_name = "服务器状态")
 
 

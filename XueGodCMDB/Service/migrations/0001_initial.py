@@ -21,6 +21,15 @@ class Migration(migrations.Migration):
             ],
         ),
         migrations.CreateModel(
+            name='APIToken',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', primary_key=True, serialize=False, auto_created=True)),
+                ('value', models.CharField(verbose_name='token值', max_length=32)),
+                ('time', models.DateTimeField(verbose_name='生成时间')),
+                ('user_id', models.CharField(verbose_name='token用户', max_length=32)),
+            ],
+        ),
+        migrations.CreateModel(
             name='CMDBUser',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', primary_key=True, serialize=False, auto_created=True)),
@@ -33,6 +42,14 @@ class Migration(migrations.Migration):
             ],
         ),
         migrations.CreateModel(
+            name='LoginUser',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', primary_key=True, serialize=False, auto_created=True)),
+                ('username', models.CharField(verbose_name='用户名', max_length=32)),
+                ('password', models.CharField(verbose_name='密码', max_length=32)),
+            ],
+        ),
+        migrations.CreateModel(
             name='Service',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', primary_key=True, serialize=False, auto_created=True)),
@@ -40,7 +57,7 @@ class Migration(migrations.Migration):
                 ('mac', models.CharField(verbose_name='服务器物理地址', max_length=32)),
                 ('cpu', models.CharField(verbose_name='服务器CPU', max_length=32)),
                 ('memory', models.CharField(verbose_name='服务器内存', max_length=32)),
-                ('disk', models.CharField(verbose_name='服务器磁盘', max_length=32)),
+                ('hostname', models.CharField(verbose_name='服务器主机', max_length=32)),
                 ('isalive', models.CharField(verbose_name='服务器状态', max_length=32)),
             ],
         ),

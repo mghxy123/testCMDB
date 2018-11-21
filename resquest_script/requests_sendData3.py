@@ -11,6 +11,7 @@ import json
 import requests
 
 url = "http://47.98.60.53:9909/service/api/"
+url = "http://127.0.0.1:8000/service/api/"
 data = {
    "type": "user_login",
     "data": {
