@@ -49,3 +49,26 @@ class Api(models.Model):
     name = models.CharField(max_length = 32,verbose_name = "接口名称")
     description = RichTextUploadingField(verbose_name = "接口描述") #采用富文本编辑器编写的接口描述字段
     doc = models.CharField(max_length = 64,verbose_name = "接口文档")
+
+class LoginUser(models.Model):
+    """
+    登录用户
+    """
+    username = models.CharField(max_length = 32,verbose_name = "用户名")
+    password = models.CharField(max_length=32, verbose_name="密码")
+
+    def __str__(self):
+        return self.username
+
+class APIToken(models.Model):
+    """
+    服务器信息
+    """
+    value = models.CharField(max_length=32, verbose_name="token值")
+    time = models.DateTimeField(verbose_name="生成时间")
+    #这里一定要注意Django settings默认设置的时区
+    user_id = models.CharField(max_length=32, verbose_name="token用户")
+
+
+    def __str__(self):
+        return self.value

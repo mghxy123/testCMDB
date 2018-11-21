@@ -61,7 +61,7 @@ import hashlib
 
 from Service.models import LoginUser,APIToken,Service
 
-class API(View):
+class api(View):
     """
     #........
     """
