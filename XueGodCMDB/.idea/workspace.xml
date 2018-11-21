@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b5b0b9b-8d12-45c3-a097-101018f6df1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/vue-resource.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/vue.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/service/get_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/63ffcb03-e50d-46c7-af7f-195012a8d55b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8bfb972-3357-44ca-a2e4-de11057d8af5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/migrations/0002_apitoken_loginuser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Service/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Service/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Service/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Service/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resquest_script/requests_sendData5.py" beforeDir="false" afterPath="$PROJECT_DIR$/../resquest_script/requests_sendData5.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +85,7 @@
           <entry key="cell" value="88" />
           <entry key="css" value="19" />
           <entry key="html" value="575" />
-          <entry key="py" value="3286" />
+          <entry key="py" value="3325" />
           <entry key="sql" value="216" />
           <entry key="txt" value="43" />
         </counts>
@@ -110,7 +95,7 @@
           <entry key="CSS" value="19" />
           <entry key="HTML" value="575" />
           <entry key="PLAIN_TEXT" value="43" />
-          <entry key="Python" value="3286" />
+          <entry key="Python" value="3325" />
           <entry key="SQL" value="215" />
           <entry key="Scratch" value="89" />
         </counts>
@@ -128,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Service/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4090">
-              <caret line="307" column="67" selection-start-line="307" selection-start-column="67" selection-end-line="307" selection-end-column="67" />
+            <state relative-caret-position="215">
+              <caret line="402" column="31" lean-forward="true" selection-start-line="402" selection-start-column="31" selection-end-line="402" selection-end-column="31" />
               <folding>
                 <element signature="e#10700#10735#0" expanded="true" />
               </folding>
@@ -143,17 +128,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/service/get_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+            <state relative-caret-position="765">
+              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Service/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#105#146#0" expanded="true" />
               </folding>
@@ -245,11 +230,11 @@
         <option value="$PROJECT_DIR$/Testing/views.py" />
         <option value="$USER_HOME$/aa.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9d823f22-01c0-41d7-9c68-0fb93b02927e/console.sql" />
-        <option value="$PROJECT_DIR$/Service/urls.py" />
         <option value="$PROJECT_DIR$/template/service/get_page.html" />
         <option value="$PROJECT_DIR$/Service/models.py" />
-        <option value="$PROJECT_DIR$/Service/views.py" />
         <option value="$USER_HOME$/bb.sql" />
+        <option value="$PROJECT_DIR$/Service/views.py" />
+        <option value="$PROJECT_DIR$/Service/urls.py" />
       </list>
     </option>
   </component>
@@ -421,7 +406,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34394905" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.32961783" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39968154" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -429,7 +414,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32961783" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.32961783" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.46019107" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32961783" />
@@ -637,16 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Service/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="e#105#146#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://9d823f22-01c0-41d7-9c68-0fb93b02927e/schema/main/table/service_service">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -675,13 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/service/get_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://3164c750-2599-493a-8b4e-bbacd9a91e14/schema/main/table/service_loginuser">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -703,12 +671,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template/service/get_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Service/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4090">
-          <caret line="307" column="67" selection-start-line="307" selection-start-column="67" selection-end-line="307" selection-end-column="67" />
+        <state relative-caret-position="215">
+          <caret line="402" column="31" lean-forward="true" selection-start-line="402" selection-start-column="31" selection-end-line="402" selection-end-column="31" />
           <folding>
             <element signature="e#10700#10735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Service/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#105#146#0" expanded="true" />
           </folding>
         </state>
       </provider>
