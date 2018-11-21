@@ -10,7 +10,7 @@
 import json
 import requests
 
-url = "http://192.168.1.23:8000/API/"
+url = "http://47.98.60.53:9909/api/"
 #对嵌套部分进行json封装
 login_data = json.dumps({
     "username": "while",
